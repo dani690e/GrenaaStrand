@@ -30,3 +30,16 @@
   
   .carousel-multi-item-2 .card img {
   border-radius: 2px; }
+
+//Google maps
+.mapouter {
+  position: relative;
+  text-align: right;
+  @include map(200px, 300px);
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  @include map(200px, 300px);
+}
